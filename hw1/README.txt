@@ -91,7 +91,7 @@ $ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/po
 Run the following command for Section 2 (DAGGER):
 (NOTE: the --do_dagger flag, and the higher value for n_iter)
 
-$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/RoboschoolAnt-v1.py --env_name RoboschoolAnt-v1 --exp_name test_bc_ant --n_iter 10 --do_dagger --expert_data cs285/expert_data/RoboschoolAnt-v1.pkl --video_log_freq -1
+$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/RoboschoolAnt-v1.py --env_name RoboschoolAnt-v1 --exp_name test_dagger_ant --n_iter 10 --do_dagger --expert_data cs285/expert_data/RoboschoolAnt-v1.pkl --video_log_freq -1
 
 ##############################################
 
