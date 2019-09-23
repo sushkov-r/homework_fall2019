@@ -20,14 +20,11 @@ import numpy as np
 
 
 EXPERT_DIR = "cs285.policies.experts"
-ROBOSCOOL_EXPERT_DATA_DIR = 'hw1/expert_data'
-SUPERVISED_MODELD_DATA_DIR = 'hw1/supervised_modeled_data'
 ROBOSCOOL_AVAILABLE_ENVS = ['RoboschoolAnt-v1', 'RoboschoolHumanoid-v1', 'RoboschoolHalfCheetah-v1', 'RoboschoolReacher-v1',
                   'RoboschoolHopper-v1', 'RoboschoolWalker2d-v1']
 
 
 ROBOSCHOOL_ENGINE = 'Roboschool'
-MOJOCO_ENGINE = 'MuJoCo'
 
 
 
