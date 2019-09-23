@@ -80,16 +80,18 @@ See the code + the hw pdf for more details.
 ##############################################
 ##############################################
 
-5) run code: 
+5) run code:
+   5-ε) prepare expert data for the Roboschool environment
+   $ python cs285/scripts/run_expert.py cs285/experts/RoboschoolAnt-v1.py RoboschoolAnt-v1 --export_dir cs285/expert_data --render --num_rollouts 1
 
 Run the following command for Section 1 (Behavior Cloning):
 
-$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/Ant.pkl --env_name Ant-v2 --exp_name test_bc_ant --n_iter 1 --expert_data cs285/expert_data/expert_data_Ant-v2.pkl
+$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/RoboschoolAnt-v1.py --env_name RoboschoolAnt-v1 --exp_name test_bc_ant --n_iter 1 --expert_data cs285/expert_data/RoboschoolAnt-v1.pkl --video_log_freq -1
 
 Run the following command for Section 2 (DAGGER):
 (NOTE: the --do_dagger flag, and the higher value for n_iter)
 
-$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/Ant.pkl --env_name Ant-v2 --exp_name test_dagger_ant --n_iter 10 --do_dagger --expert_data cs285/expert_data/expert_data_Ant-v2.pkl
+$ python cs285/scripts/run_hw1_behavior_cloning.py --expert_policy_file cs285/policies/experts/RoboschoolAnt-v1.py --env_name RoboschoolAnt-v1 --exp_name test_bc_ant --n_iter 3 --expert_data cs285/expert_data/RoboschoolAnt-v1.pkl --do_dagger --video_log_freq -1
 
 ##############################################
 
