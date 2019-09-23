@@ -7,22 +7,7 @@ $ python setup.py develop
 ##############################################
 
 2)install mujoco:
-$ cd ~
-$ mkdir .mujoco
-$ cd <location_of_your_mjkey.txt>
-$ cp mjkey.txt ~/.mujoco/
-$ cd <this_repo>/downloads
-$ cp -r mjpro150 ~/.mujoco/
-
-add the following to bottom of your bashrc:
-export LD_LIBRARY_PATH=~/.mujoco/mjpro150/bin/
-
-NOTE IF YOU'RE USING A MAC:
-The provided mjpro150 folder is for Linux. 
-Please download the OSX version yourself, from https://www.roboti.us/index.html
-
-##############################################
-##############################################
+[Do nothing, roboschool is used]
 
 3)install other dependencies
 
