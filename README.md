@@ -9,4 +9,6 @@ Combined https://github.com/berkeleydeeprlcourse/homework_fall2019 and https://g
 
 # Status
 - [x] HW1
-- [ ] HW2
+- [ ] HW2: required only in the bonus tasks
+- [ ] HW3
+- [ ] HW4
